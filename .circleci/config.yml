@@ -761,8 +761,8 @@ jobs:
           test_name: "testAll"
       - *SLACK_NOTIFY_FAIL
   vertx-utils-test:
-    executor: gradle-executor
-    t:
+    # executor: gradle-executor
+    # t:
     executor: gradle-executor
     steps:
       - backend-test:
